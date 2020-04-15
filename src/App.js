@@ -35,7 +35,7 @@ class App extends Component {
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
         <Typography style={{ color: "red" }} color="textSecondary" gutterBottom>
-          Developed by Abdul Wahab
+          Developed by Abdul 
         </Typography>
       </div>
     );
