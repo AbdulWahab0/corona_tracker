@@ -1,6 +1,6 @@
 Corona Tracker with React
 ---
-<img src="corona.png" width="60%" height="60%" />
+<img src="corona.png" width="80%" height="60%" />
 
 
 ## Available Scripts
