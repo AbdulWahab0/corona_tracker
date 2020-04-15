@@ -6,6 +6,7 @@ import styles from "./App.module.css";
 import { fetchData } from "./api";
 import coronaImage from "./images/image.png";
 import { Typography } from "@material-ui/core";
+import Source from "./components/Source/Source.jsx";
 
 import "./App.css";
 
@@ -34,9 +35,8 @@ class App extends Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
-        <Typography style={{ color: "red" }} color="textSecondary" gutterBottom>
-          Developed by Abdul 
-        </Typography>
+
+        <Source />
       </div>
     );
   }
