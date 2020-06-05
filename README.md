@@ -1,4 +1,4 @@
-Corona Tracker with React
+Corona Tracker with React and Material Ui
 ---
 <img src="corona.png" width="120%" height="60%" />
 
